@@ -1,0 +1,205 @@
+<!--
+Facultad de Arquitectura Colegio de Diseño Grafico
+Diseño de Interfaces Graficas de Usuario
+N°, Otli Yeccan Castillo Cuervo
+-->
+<html>
+    <head>
+        <title>Listas en html</title>
+        <Style> type="text/css"
+            *{  
+                padding: 0;
+                margin: 0;
+            }
+            header{
+                width: 1200px;
+                height: 100px;
+                background-color: lightpink;
+                padding: 30px;
+                font-size: 30px;
+                text-decoration-color: aliceblue;
+                color: blue;
+            }
+            nav {
+                width: 1200px; 
+                height: 50px;
+                background-color: darkorchid; 
+                padding: 30px 
+            }
+                    
+           nav ul li {
+                list-style-type: none; 
+                width: 100px;
+                height: 30px;
+                background-color: aliceblue; 
+                margin-bottom: 8px;
+                display: inline-block; 
+                padding: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
+               text-align: center;
+            } 
+           
+             nav ul li:hover{
+                background-color: crimson;
+            }
+            
+            
+            main{
+                width: 1200px; 
+                height: 1500px;
+                background-color: fuchsia; 
+                padding: 30px;
+            }
+            footer{
+                width: 1200px; 
+                height: 50px;
+                background-color: darkorchid; 
+                padding: 30px;
+            }
+            header,nav,main,footer{ 
+                margin-left: auto;
+                margin-right: auto;
+            }
+            section{
+                width: 900px; 
+                height: auto;
+                background-color: papayawhip; 
+                margin-top: 10px;
+                margin-bottom: 30px; 
+                padding: 30px;
+                margin-left: auto;
+                margin-right: auto;
+                 
+            }
+            
+            header h1,footer h6{ 
+                text-align: center;
+             }
+            footer h6{
+                color:floralwhite;
+                font-size: 20px;
+                text-align: center;
+                }
+            }
+            h1,h2,h6{
+                margin-bottom: 20px; 
+                color: darkmagenta;
+                font-size: 50px;
+            }
+            p, li{
+                color: purple
+            }
+             ul{
+                text-align: left;
+            }
+              
+        </Style>
+    </head>
+    <body>
+        <header>
+            <h1>LISTAS EN HTML</h1>
+        </header>
+        <nav> 
+          <ul>
+                <li> <a href="../formatos/Formatos.html">Formatos</a> </li>
+                <li> <a href="../listas/listas.html">Listas</a> </li>
+                <li> <a href="../tablas/tablas.html">Tablas</a> </li>
+                <li> <a href="../enlaces/enlaces.html">Enlaces</a> </li>
+                <li> <a href="../imagenes/imagenes.html">Imagenes</a> </li>
+                <li> <a href="../audio/audio.html">Audio</a> </li>
+                <li> <a href="../video/video.html">Video</a> </li>
+                <li> <a href="">Formularios</a> </li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h1>Listas ordenadas</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing, elit natoque consequat sed nibh, ac vivamus fusce mauris mi. Morbi vel pharetra laoreet penatibus rutrum odio augue aenean metus, mattis ac molestie in libero convallis nec risus praesent, fermentum pellentesque dis et duis montes donec vestibulum. Mus eleifend curae viverra tincidunt senectus ac mollis maecenas aenean nibh, consequat felis malesuada suscipit dis molestie fames mattis arcu est non, posuere aptent quis nisi vulputate lobortis magna class volutpat.</p>
+             <ol>
+                <li>Colombia</li>
+                <li>Bolivia</li>
+                <li>Dinamarca</li>
+                <li>Francia</li>
+                <li>Italia</li>
+                <li>Lituania</li>
+                <li>Mexico</li>
+                <li>Paraguay</li>
+                <li>Espana</li>
+                <li>Estados Unidos</li>
+             </ol> 
+            </section>
+            <section>
+                <h2>Listas desordenadas</h2>
+                <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Morbi eu massa vel massa
+                    ultricies hendrerit. Cras sapien quam, consectetur in
+                    ultrices sit amet, aliquet sit amet nisl. Pellentesque
+                    sodales tellus eget mauris hendrerit, tempus hendrerit
+                    tellus porta. Etiam imperdiet iaculis orci, id
+                    scelerisque tortor euismod sit amet. Duis commodo
+                    hendrerit laoreet. Interdum et malesuada fames ac ante
+                    ipsum primis in faucibus. Suspendisse sagittis tellus
+                    tellus. </p>
+                        <ul>
+                            <li> Aguascalientes</li>
+                            <li>Oaxaca</li>
+                            <li>Michoacan</li>
+                            <li>Jalisco</li>
+                            <li>Puebla</li>
+                            <li>Veracruz</li>
+                            <li>Queretaro</li>
+                            <li>Quintana Roo</li>
+                            <li>Colima</li>
+                            <li>San Luis Potosi</li>
+                        </ul> 
+            </section>
+            <section>
+                <h2>Listas mixtas</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing, elit natoque consequat sed nibh, ac vivamus fusce mauris mi. Morbi vel pharetra laoreet penatibus rutrum odio augue aenean metus, mattis ac molestie in libero convallis nec risus praesent, fermentum pellentesque dis et duis montes donec vestibulum. Mus eleifend curae viverra tincidunt senectus ac mollis maecenas aenean nibh, consequat felis malesuada suscipit dis molestie fames mattis arcu est non, posuere aptent quis nisi vulputate lobortis magna class volutpat.</p>
+               <p>
+                <ol>
+                    <li>Atlixco</li>
+                    <li>Cholula
+                <ul>
+                            <li>San Cristobal Tulcingo</li>
+                            <li>Las Calandrias</li>
+                            <li>Momoxpan</li>
+                            <li>El Pilar</li>
+                            <li>Zerezontla</li>
+                </ul>
+                    </li>
+                    <li>Chignahuapan</li>
+                    <li>Zacatlan</li>
+                    <li>Puebla
+                        <ul>
+                            <li>San Manuel</li>
+                            <li>Amalucan</li>
+                            <li>San Ramon</li>
+                            <li>Mexico 68</li>
+                            <li>El Carmen</li>
+                            <li>La Paz</li>
+                        </ul>
+                    </li>
+                    <li>Izucar de Matamoros</li>
+                    <li>Acajete</li>
+                    <li>Amozoc
+                        <ul>
+                            <li>Paso del Arroyo</li>
+                            <li>La Loma</li>
+                            <li>El Pozo</li>
+                        </ul>
+                    </li>
+                    <li>Tehuacan</li>
+                    <li>Tecamachalco</li>
+                </ol>
+            
+            </section>
+            
+        </main>
+        <footer>
+            <h6>Elaborado por Otli Yeccan Castillo Cuervo</h6>
+        
+        </footer>
+    </body>
+</html>

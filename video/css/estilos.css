@@ -1,0 +1,70 @@
+*{
+padding:0;
+margin: 0;
+box-sizing: border-box;
+}
+title{
+    font font-size: 27px;
+    color: blueviolet;
+    text-align: center;
+    }
+header, nav, main, footer{
+background-color: cadetblue;
+color: #fffaf4;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+padding: 50px;
+font-family: "Big Shoulders Stencil", sans-serif;
+}
+
+header{
+height: auto;
+font-family: "Big Shoulders Inline", sans-serif;
+color:darkblue;
+
+}
+nav{
+background-color: dodgerblue;
+text-align: center;
+
+}
+nav ul li{
+list-style-type: none;
+display: inline-block;
+background-color: bisque;
+width:10%;
+min-width: 100px;
+padding: 10px;
+text-align: center;
+    border-radius: 30px;
+min-width: 100px;
+margin-bottom: 5px;
+margin-top: 5px;
+}
+nav ul li a:link, nav ul li a:visited{
+text-decoration: none;
+color: darkblue;
+}
+nav ul li:hover{
+background-color: blueviolet;
+}
+section{
+background-color: darkblue;
+margin-top: 20px;
+margin-bottom: 20px;
+padding: 30px;
+overflow-x: auto;
+}
+h2{
+margin-bottom: 30px;
+font-family: "Big Shoulders Inline", sans-serif;
+}
+h1{
+text-align: center;
+font-size: 48px;
+}
+footer{text-align: center;
+height: 48px;
+background-color: #8862f9;
+font-size: 24px;

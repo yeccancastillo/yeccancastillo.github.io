@@ -1,0 +1,112 @@
+*{
+padding:0;
+margin: 0;
+box-sizing: border-box;
+}
+header, nav, main, footer{
+background-color: darkslateblue;
+color: aquamarine;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+padding: 50px;
+}
+nav{
+background-color: skyblue;
+text-align: center;
+}
+nav ul li{
+list-style-type: none;
+display: inline-block;
+background-color: darkmagenta;
+width:10%;
+padding: 10px;
+text-align: center;
+border-radius: 30px;
+min-width: 100px;
+margin-bottom: 10px;
+margin-top: 5px;
+}
+nav ul li a:link, nav ul li a:visited{
+text-decoration: none;
+color: aquamarine;
+}
+nav ul li:hover{
+background-color: cornflowerblue;
+}
+section{
+background-color: darkred;
+margin-top: 20px;
+margin-bottom: 20px;
+padding: 30px;
+overflow-x: auto;
+}
+h2{
+margin-bottom: 30px;
+}
+h1{
+text-align: center;
+font-size: 48px;
+}
+footer{
+text-align: center;
+height: 48px;
+background-color: blueviolet;
+font-size: 18px;
+}
+table{
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+border-spacing: 10px;
+background-color: cornsilk;
+}
+#tabla-1{
+background-color: darkgrey;
+border: 3px solid red;
+border-spacing: 10px;
+}
+#tabla-1 th{
+font-size: 20px;
+background-color: darkturquoise;
+color: yellow;
+}
+#tabla-1 th, #tabla-1 td{
+border: 3px solid blue;
+padding: 10px;
+}
+#tabla-cebra{
+width: 80%;margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+border:
+}
+#tabla-cebra th{
+background-color: darkcyan;
+}
+#tabla-cebra tbody tr:nth-child(even){
+background-color: coral;
+}
+#tabla-cebra tbody tr:nth-child(odd){
+background-color: darkgoldenrod;
+}
+#tabla-hover{
+width: 70%;
+}
+#tabla-hover th{
+background-color: aquamarine;
+color: blue;
+}
+#tabla-hover td, #tabla-hover th{
+border-width: 3px;
+border-color: aquamarine;
+border-style: solid;
+padding: 10px;
+}
+#tabla-hover tr:hover{
+background-color: chartreuse;
+color: black;
+}
+footer{
+    font-size: 28px;
+}

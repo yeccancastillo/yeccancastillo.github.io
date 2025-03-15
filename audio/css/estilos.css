@@ -1,0 +1,66 @@
+
+header, nav, main, footer{
+background-color: rosybrown;
+color: #fffaf4;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+padding: 50px;
+font-family: "Source", sans-serif;
+}
+header{
+height: auto;
+font-family: "Sigmar", sans-serif;
+letter-spacing: 5px;
+}
+nav{
+background-color: sandybrown;
+text-align: center;
+}
+nav ul li{
+list-style-type: none;
+display: inline-block;
+background-color: #FCE7C8;
+width:10%;
+min-width: 100px;
+padding: 10px;
+text-align: center;
+border-radius: 30px;
+/*margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 5px;
+margin-right: 5px;*/
+Page 
+    min-width: 100px;
+margin-bottom: 5px;
+margin-top: 5px;
+}
+nav ul li a:link, nav ul li a:visited{
+text-decoration: none;
+color: darkpink;
+}
+nav ul li:hover{
+background-color: #f78154;
+}
+    section{
+        background-color: darkseagreen;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 30px;
+        overflow-x: auto;
+        }
+    h2{
+        margin-bottom: 30px;
+        font-family: "Sigmar", sans-serif;
+        letter-spacing: 3px;
+    }
+h1{
+text-align: center;
+font-size: 48px;
+}
+footer{
+text-align: center;
+height: 48px;
+background-color: navajowhite;
+font-size: 18px;
+}

@@ -1,0 +1,181 @@
+
+*{
+padding:0;
+margin: 0;
+box-sizing: border-box;
+}
+header, nav, main, footer{
+background-color: yellow;
+color: #fffaf4;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+padding: 50px;
+font-family: "Big Shoulders Stencil", sans-serif;
+}
+header{
+height: auto;
+font-family: "Big Shoulders Inline", sans-serif;
+color:darkblue;
+letter-spacing: 10px;
+}
+nav{
+background-color: dodgerblue;
+text-align: center;
+}
+nav ul li{
+list-style-type: none;
+display: inline-block;
+background-color: bisque;
+width:10%;
+min-width: 100px;
+padding: 10px;
+text-align: center;
+    border-radius: 30px;
+/*margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 5px;
+margin-right: 5px;*/
+min-width: 100px;
+margin-bottom: 5px;
+margin-top: 5px;
+}
+nav ul li a:link, nav ul li a:visited{
+text-decoration: none;
+color: darkblue;
+}
+nav ul li:hover{
+background-color: blueviolet;
+}
+section{
+background-color: darkblue;
+margin-top: 20px;
+margin-bottom: 20px;
+padding: 30px;
+overflow-x: auto;
+}
+h2{
+margin-bottom: 30px;
+font-family: "Big Shoulders Inline", sans-serif;
+letter-spacing: 7px;
+}
+h1{
+text-align: center;
+font-size: 48px;
+}
+footer{text-align: center;
+height: 48px;
+background-color: #8862f9;
+font-size: 24px;
+letter-spacing: 4px;
+}
+table{
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+border-spacing: 10px;
+}
+#tabla-1{
+background-color: blanchedalmond;
+border: 3px solid brown;
+border-spacing: 10px;
+}
+#tabla-1 th{
+font-size: 20px;
+background-color: navajowhite;
+color: deepskyblue;
+}
+#tabla-1 th, #tabla-1 td{
+border: 3px solid pink;
+padding: 10px;
+}
+#tabla-cebra{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+border:
+}
+#tabla-cebra th{
+background-color: rosybrown;
+}
+#tabla-cebra tbody tr:nth-child(even){
+background-color: palevioletred;
+}
+#tabla-cebra tbody tr:nth-child(odd){
+background-color: aliceblue;
+}
+#tabla-hover{
+width: 70%;
+}
+#tabla-hover th{
+background-color: cadetblue;
+color: blue;
+}
+#tabla-hover td, #tabla-hover th{
+border-width: 3px;
+border-color: mediumvioletred;
+border-style: solid;
+padding: 10px;
+}
+#tabla-hover tr:hover{
+background-color: pink;
+color: black;
+}
+img{
+width: 60%;
+margin-top: 30px;
+}
+main section {
+margin-left: auto;
+    margin-right: auto;
+padding: 50px;
+}
+#img.gif{
+width: 50%;
+height:auto;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+p{
+margin-top: 20px;
+}
+.img_flotante{
+width: 30%;
+float: left;
+margin-top: 0;
+margin-right: 20px;
+    
+    
+}
+.img_flotante_derecha{
+    float: right;
+    width: 24%;
+    margin-left: 15px;
+}
+.alineacion{
+float: right;
+margin: 0;
+}
+#fondo_box{
+background-image: url(../imagen/via-lactea-1-1-1920x1080.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+color: yellow
+}
+.img_filter{
+text-align: center;
+}
+.img_filter p, .img_filter h2{
+text-align: left;
+}
+.img_filter img{
+width: 20%;
+margin:20px;
+    }
+.img-border-redondo{
+border-radius: 30%;
+}
+.section-filtros img{
+}
